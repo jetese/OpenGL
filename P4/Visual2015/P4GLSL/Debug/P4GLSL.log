@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(89): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(93): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(686): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(689): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  P4GLSL.vcxproj -> C:\Users\jetese\Desktop\Univerzidah\Info Grafica\P42015\P4\Visual2015\P4GLSL\Debug\P4GLSL.exe
+  P4GLSL.vcxproj -> C:\Users\jetese\Desktop\Univerzidah\Info Grafica\P42015\P4\Visual2015\P4GLSL\Debug\P4GLSL.pdb (Full PDB)
