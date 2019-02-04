@@ -48,7 +48,7 @@ El objetivo de esta práctica es programar la etapa de aplicación utilizando el
 * Implementar funcionalidad de las prácticas 1 y 2
 
 ## Practica 4 Aumento de realismo - Post-Proceso (MRT)
-	El objetivo de esta práctica es entender que los métodos de iluminación local no pueden simular muchos de los comportamientos típicos de la luz. La posibilidad de renderizar sobre una textura que se pueda utilizar posteriormente en la escena nos permite diseñar técnicas que suplan de forma más o menos efectiva alguna de estas carencias.
+El objetivo de esta práctica es entender que los métodos de iluminación local no pueden simular muchos de los comportamientos típicos de la luz. La posibilidad de renderizar sobre una textura que se pueda utilizar posteriormente en la escena nos permite diseñar técnicas que suplan de forma más o menos efectiva alguna de estas carencias.
 	
 * Renderiza cuadrado sobre el plano de proyección
 * Motion Blur
