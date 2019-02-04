@@ -1,0 +1,19 @@
+﻿cl : Línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  main.cpp
+c:\users\jetes\desktop\info grafica\practica 3\p3visual2015v4\p3glsl\scr\main.cpp(130): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\jetes\desktop\info grafica\practica 3\p3visual2015v4\p3glsl\scr\main.cpp(685): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\jetes\desktop\info grafica\practica 3\p3visual2015v4\p3glsl\scr\main.cpp(687): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\jetes\desktop\info grafica\practica 3\p3visual2015v4\p3glsl\scr\main.cpp(757): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+c:\users\jetes\desktop\info grafica\practica 3\p3visual2015v4\p3glsl\scr\main.cpp(758): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+  auxiliar.cpp
+  Generando código...
+auxiliar.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+  P3GLSL.vcxproj -> C:\Users\jetes\Desktop\Info Grafica\Practica 3\P3Visual2015v4\P3GLSL\Debug\P3GLSL.exe
