@@ -31,46 +31,46 @@
     <None Include="..\shaders_P2\shader.v0.vert">
       <Filter>shaders</Filter>
     </None>
+    <None Include="..\shaders_P2\shader.v1.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P2\shader.v1.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P2\shader.v2.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P2\shader.v2.vert">
+      <Filter>shaders</Filter>
+    </None>
     <None Include="..\shaders_P2\shader.v3.frag">
       <Filter>shaders</Filter>
     </None>
     <None Include="..\shaders_P2\shader.v3.vert">
       <Filter>shaders</Filter>
     </None>
+    <None Include="..\shaders_P2\shader.v4.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P2\shader.v4.vert">
+      <Filter>shaders</Filter>
+    </None>
     <None Include="..\shaders_P2\shader.v5.frag">
       <Filter>shaders</Filter>
     </None>
-    <None Include="..\shaders_P2\shader.v1.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v2.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v4.frag">
+    <None Include="..\shaders_P2\shader.v5.vert">
       <Filter>shaders</Filter>
     </None>
     <None Include="..\shaders_P2\shader.v6.frag">
       <Filter>shaders</Filter>
     </None>
+    <None Include="..\shaders_P2\shader.v6.vert">
+      <Filter>shaders</Filter>
+    </None>
     <None Include="..\shaders_P2\shader.v7.frag">
       <Filter>shaders</Filter>
     </None>
-    <None Include="..\shaders_P2\shader.v8.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v9.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v10.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v8.vert">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v1.vert">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\shaders_P2\shader.v2.vert">
+    <None Include="..\shaders_P2\shader.v7.vert">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>

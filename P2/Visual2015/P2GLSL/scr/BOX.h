@@ -223,8 +223,6 @@ const float cubeVertexTangent[] = {
 	1.0f,	0.0f,	0.0f,
  };
 
-
-
 #endif
 
 

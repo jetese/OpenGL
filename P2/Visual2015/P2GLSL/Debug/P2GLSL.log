@@ -1,14 +1,1 @@
-﻿cl : Línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
-  main.cpp
-c:\users\jetes\desktop\info grafica\practica 2\p2\visual2015\p2glsl\scr\main.cpp(100): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
-          with
-          [
-              T=float
-          ]
-c:\users\jetes\desktop\info grafica\practica 2\p2\visual2015\p2glsl\scr\main.cpp(101): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
-          with
-          [
-              T=float
-          ]
-main.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
-  P2GLSL.vcxproj -> C:\Users\jetes\Desktop\Info Grafica\Practica 2\P2\Visual2015\P2GLSL\Debug\P2GLSL.exe
+﻿  P2GLSL.vcxproj -> C:\Users\jetes\Desktop\Info Grafica\Practica 2\Practica2\P2\Visual2015\P2GLSL\Debug\P2GLSL.exe

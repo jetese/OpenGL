@@ -8,51 +8,58 @@ in vec3 VERT;
 
 uniform mat4 view;
 
-//Pròpiedades de la luz
-vec3 Ia = vec3(0.3);
-vec3 Il = vec3(1.0);
-vec3 Posl = vec3(0,0,6);//En coordenadas del muno. Poco habitual
+//Propiedades de la luz
+vec3 Ia = vec3(0.3);		//Intensidad Ambiental
+vec3 Il = vec3(1.0);		//Intensidad luminica
+vec3 Posl = vec3(0,0,6);	//Posición de la luz en coordenadas del mundo ( poco habitual)
 
 //Propiedades del objeto
-vec3 Ka;
-vec3 Kd;
-vec3 Ks;
-float n;
-vec3 N;
-vec3 Pos;//posicion del objeto en coordenadas de la camara
+vec3 Ka;					//Coeficiente de reflexión ambiental			
+vec3 Kd;					//Coeficiente de reflexión difuso
+vec3 Ks;					//Coeficiente de reflexión especular
+float n;					//Indice que simula la rugosidad de la superficie
+vec3 N;						//Normal de la superficie en el punto P
+vec3 Pos;					//Posición del objeto en coordenadas de la camara
 
-vec3 shade (){
+vec3 shade(){
 	vec3 c = vec3(0.0);
 
-	//Ambiental 
-	c += Ia * Ka;
+	//Luz ambiental	= Iambiental * Coeficiente de reflexión ambiental
 
-	//Difusa
-	vec3 L = normalize(Posl - Pos);
+	c += Ia * Ka;		
+
+	//Luz difusa = Intensidad lumínica * Coeficiente de reflexión difusa 
+	//				* (Normal del punto (producto escalar) Vector de incidencia de la luz) * fatt(1)
+
+	vec3 L = normalize(Posl-Pos);	
 	vec3 Id = Il * Kd * dot(L,N);
-	c += clamp (Id, 0, 1);//Si es menor que 0 pone 0, si es mayor que 1 pone 1
+	c+= clamp(Id,0,1);
+
+	//Luz especular = Il * Ks *dot (R,V) ^ n
+	// R = 2 * dot(vector normales, vector direccion luz) * vector normales - vector direccion Luz
 	
-	//Especular
-	vec3 V = normalize(-Pos);
-	vec3 R = normalize(reflect(-L,N));
-	float sfactor = max(dot (R,V), 0.0001);
-	sfactor = pow (sfactor, n);
-	vec3 Is = Il*Ks*sfactor;
-	c += clamp(Is,0,1);
+	vec3 V = normalize(-Pos);				// Vector de vista (Posición del objeto - posición de la camara)
+	vec3 R = normalize(reflect(-L,N));		// Reflect =  -L - 2.0 * dot(N, -L) * N = R
+	float sfactor = max(dot (R,V), 0.0001);	// No entiendo porque el máximo de dot(R,V),0.0001
+	sfactor = pow (sfactor, n);				// dot(R,V) ^ n
+	vec3 Is = Il*Ks*sfactor;				// Il * Ks * dot(R,V) ^ n
+	c += clamp(Is,0,1);						// Luz ambiental + Luz difusa + Luz especular
 	return c;
+
 }
 
 void main()
 {
-	Posl = (view * vec4(Posl,1)).xyz;
+	Posl = (view * vec4 (Posl,1)).xyz;				// Transformar la posición de la luz en coordenadas del
+													// mundo a coordenadas de la camara
 
-	Ka = color;
-	Kd = color;
-	Ks = vec3(1);
-	n = 100.0f;
+	Ka = color;										//Coeficiente de reflexion ambiental = Color de cada vertice
+	Kd = color;										//Coeficiente de reflexion difusa = Color de cada vertice
+	Ks = vec3(1);									//Coeficiente de reflexion ambiental =  Blanco
+	n = 100.0f;										// Coeficiente de rugosidad para reflexion especular
 
-	N = normalize(NORM);
-	Pos = VERT;
+	N = normalize(NORM);							//Normalizacion de las normales de los vertices en coordenadas de la camara
+	Pos = VERT;										//Posicion de cada vertices en coordenada de la camara
 
-	outColor = vec4(shade(), 1.0);   
+	outColor = vec4(shade(), 1.0);					//Calculo de los fragmentos
 }

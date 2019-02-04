@@ -1,1 +1,21 @@
-﻿  P1GLSL.vcxproj -> C:\Users\jetes\Desktop\Info Grafica\Practica 1\P1\Visual2013\P1GLSL\Release\P1GLSL.exe
+﻿  main.cpp
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(47): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(88): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(89): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(130): warning C4305: '=': truncamiento de 'double' a 'float'
+d:\git\opengl\p1\p1\visual2013\p1glsl\scr\main.cpp(132): warning C4305: '=': truncamiento de 'double' a 'float'
+  Generando código
+  127 of 130 functions (97.7%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  P1GLSL.vcxproj -> D:\Git\OpenGL\P1\P1\Visual2013\P1GLSL\Release\P1GLSL.exe
