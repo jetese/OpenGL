@@ -16,6 +16,8 @@ El objetivo de esta práctica es entender los fundamentos de programación de �
 
 Mover con wasd, ratón con botón derecho para vista
 
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura1.PNG "p1")
+
 
 ## Practica 2 Iluminación en GLSL
 El objetivo de esta práctica es aplicar las técnicas de iluminación en un cauce gráfico real.
@@ -29,6 +31,8 @@ Se repasarán conceptos como: modelos de iluminación, modelos de sombreado, tip
 * Implementado técnica de Bump Mapping
 * Calcular normales y tangentes de un modelo cargado desde fichero
 
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura21.PNG "Luz 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura22.PNG "Luz 2")
 
 ## Practica 3 Introducción a la programación en OpenGL
 El objetivo de esta práctica es programar la etapa de aplicación utilizando el API de OpenGL 3.3.
@@ -47,6 +51,11 @@ El objetivo de esta práctica es programar la etapa de aplicación utilizando el
 * Mejorar el comportamiento de las texturas utilizando un filtro anisotrópico
 * Implementar funcionalidad de las prácticas 1 y 2
 
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura.PNG "Logo Title Text 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/profundidaactivado.png "Logo Title Text 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/profundidadactivo.png "Logo Title Text 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/ConGlcw.png "GLCw")
+
 ## Practica 4 Aumento de realismo - Post-Proceso (MRT)
 El objetivo de esta práctica es entender que los métodos de iluminación local no pueden simular muchos de los comportamientos típicos de la luz. La posibilidad de renderizar sobre una textura que se pueda utilizar posteriormente en la escena nos permite diseñar técnicas que suplan de forma más o menos efectiva alguna de estas carencias.
 	
@@ -61,3 +70,7 @@ El objetivo de esta práctica es entender que los métodos de iluminación local
 * Concatena varios filtros Gausianos.
 * Concatena varios post-proceso distintos
 * Implementa funcionalidad de las prácticas 1,2 y 3
+
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura40.PNG "Logo Title Text 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura41.PNG "Logo Title Text 1")
+![alt text](https://github.com/jetese/OpenGL/blob/master/Capturas/Captura42.PNG "Logo Title Text 1")
