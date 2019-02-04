@@ -1,7 +1,10 @@
-﻿  main.cpp
-c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(89): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(93): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(686): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jetese\desktop\univerzidah\info grafica\p42015\p4\visual2015\p4glsl\scr\main.cpp(689): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  P4GLSL.vcxproj -> C:\Users\jetese\Desktop\Univerzidah\Info Grafica\P42015\P4\Visual2015\P4GLSL\Debug\P4GLSL.exe
-  P4GLSL.vcxproj -> C:\Users\jetese\Desktop\Univerzidah\Info Grafica\P42015\P4\Visual2015\P4GLSL\Debug\P4GLSL.pdb (Full PDB)
+﻿cl : Línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  auxiliar.cpp
+cl : Línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  main.cpp
+d:\git\opengl\p4\visual2015\p4glsl\scr\main.cpp(89): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+d:\git\opengl\p4\visual2015\p4glsl\scr\main.cpp(93): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+d:\git\opengl\p4\visual2015\p4glsl\scr\main.cpp(686): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+d:\git\opengl\p4\visual2015\p4glsl\scr\main.cpp(689): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+auxiliar.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+  P4GLSL.vcxproj -> D:\Git\OpenGL\P4\Visual2015\P4GLSL\Debug\P4GLSL.exe
